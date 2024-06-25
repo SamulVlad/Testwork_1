@@ -6,7 +6,7 @@ public class Task1 {
 		double x = 0.5;
 		double y;
 
-		if (x + 2 / 3 == 0) {
+		if (x + 2.0 / 3 == 0) {
 			System.out.println("Выражение не может быть вичислено. Значение в знаменателе дроби равно 0.");
 			return;
 		}

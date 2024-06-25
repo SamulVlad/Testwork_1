@@ -22,7 +22,7 @@ public class Task2 {
 	public static double f(double x) {
 		double y;
 
-		if (x + 2 / 3 == 0) {
+		if (x + 2.0 / 3 == 0) {
 			System.out.println("Выражение не может быть вичислено. Значение в знаменателе дроби равно 0.");
 			return 0;
 		}
