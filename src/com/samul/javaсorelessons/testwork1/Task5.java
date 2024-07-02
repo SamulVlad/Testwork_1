@@ -22,12 +22,12 @@ public class Task5 {
 	public static double f(double a, double x) {
 		double y;
 
-		if (a == 0) {
-			System.out.println("Выражение не может быть вичислено. Значение в знаменателе дроби равно 0.");
-			return 0;
-		}
 
 		if (x <= 0) {
+			if (a == 0) {
+				System.out.println("Выражение не может быть вичислено. Значение в знаменателе дроби равно 0.");
+				return 0;
+			}
 			y = a / 2 * (Math.exp(x / a) + Math.exp(-x / a));
 		} else {
 			y = 4 * Math.pow(a, 3) / (x * x + 4 * a * a);
