@@ -30,7 +30,7 @@ public class Task5 {
 		if (x <= 0) {
 			y = a / 2 * (Math.exp(x / a) + Math.exp(-x / a));
 		} else {
-			y = 4 * Math.pow(a, 3) * (x * x + 4 * a * a);
+			y = 4 * Math.pow(a, 3) / (x * x + 4 * a * a);
 		}
 
 		return y;
